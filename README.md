@@ -76,9 +76,9 @@ uvicorn main:app --reload
 7️⃣ Open the application
 
 Chat UI:
-👉 http://127.0.0.1:8000
+http://127.0.0.1:8000
 
-💬 Example Questions to Ask
+Example Questions to Ask
 
 What is Jarvis?
 
@@ -95,4 +95,5 @@ Result:
 
 Author
 Manogna Addanki
+
 
