@@ -19,21 +19,6 @@ Solution Overview
 Jarvis uses vector embeddings to represent knowledge and user queries in a semantic space.
 Instead of keyword matching, it performs semantic similarity search to retrieve relevant information.
 
-Architecture Overview
-
-User (Chat UI)
-     ↓
-FastAPI Backend
-     ↓
-Query Embedding (LLaMA-based)
-     ↓
-Pinecone Vector Database
-     ↓
-Relevant Context Retrieved
-     ↓
-Response shown in Chat UI
-
-
 Key Concepts Used
 
 Vector Embeddings
@@ -110,3 +95,4 @@ Result:
 
 Author
 Manogna Addanki
+
