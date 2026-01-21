@@ -1,0 +1,13 @@
+Jarvis is an enterprise AI assistant designed to help organizations retrieve internal knowledge.
+
+Jarvis understands user queries by converting them into vector embeddings using a LLaMA-based model.
+
+The assistant stores knowledge in Pinecone, a vector database optimized for semantic search.
+
+When a user asks a question, Jarvis compares the query embedding with stored document embeddings.
+
+This approach allows Jarvis to return contextually relevant answers instead of keyword-based results.
+
+Jarvis can be integrated into SaaS products as a conversational interface for support and onboarding.
+
+The system architecture supports self-hosted LLaMA models in production environments.
